@@ -1,0 +1,30 @@
+# Advanced
+
+SELECT 
+  coins.algorithm,
+  SUM(CASE WHEN QUARTER(transactions.dt) = 1 THEN transactions.volume ELSE 0 END) AS transactions_Q1,
+  SUM(CASE WHEN QUARTER(transactions.dt) = 2 THEN transactions.volume ELSE 0 END) AS transactions_Q2,
+  SUM(CASE WHEN QUARTER(transactions.dt) = 3 THEN transactions.volume ELSE 0 END) AS transactions_Q3,
+  SUM(CASE WHEN QUARTER(transactions.dt) = 4 THEN transactions.volume ELSE 0 END) AS transactions_Q4
+FROM 
+  coins 
+  JOIN transactions ON coins.code = transactions.coin_code
+WHERE 
+  YEAR(transactions.dt) = 2020
+GROUP BY 
+  coins.algorithm;
+
+# Weekend Hours Worked
+
+SELECT emp_id, SUM(hours_worked) AS hours_worked
+FROM (
+  SELECT
+  emp_id,
+  CASE WHEN MINUTE(timestamp) >= MINUTE(LAG(timestamp, 1, timestamp) OVER(PARTITION BY CAST(timestamp AS DATE), emp_id ORDER BY timestamp)) 
+  THEN HOUR(timestamp) - HOUR(LAG(timestamp, 1,timestamp) OVER(PARTITION BY CAST(timestamp AS DATE), emp_id ORDER BY timestamp)) 
+  ELSE HOUR(timestamp) - HOUR(LAG(timestamp, 1, timestamp) OVER(PARTITION BY CAST(timestamp AS DATE), emp_id ORDER BY timestamp)) - 1 END AS hours_worked
+  FROM attendance
+  WHERE DAYOFWEEK(timestamp) IN (7, 1)
+) AS hours_worked
+GROUP BY emp_id
+ORDER BY hours_worked DESC;
