@@ -2,7 +2,7 @@
 # SQL and Data Visualisation
 
 Repository for storing archive for SQL queries (MySQL), Tableau, Power BI files
--- Cedric
+-- Find more at https://cedric130813.webflow.io/
 
 
 ## 🛠 Skills
