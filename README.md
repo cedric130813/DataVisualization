@@ -23,10 +23,10 @@ Stats:
 <a href="https://public.tableau.com/app/profile/cedric130813" target="_blank"><img src='https://assets-global.website-files.com/626e3f90d87e459d91f51dd5/64288e695fbce21c01551ab0_Dashboard%202.png' width='450'></a>
 
 ### 4. Ridgeline plot | Tool: R 
-<a href="./R Stats/Rplot.png" target="_blank"><img src='./R Stats/Rplot.png' width='450'></a>
+<a href="https://github.com/cedric130813/DataVisualization/blob/6fddf0cdee482f9d9c5ace233955c910125ec956/R%20Stats/ChickweightPlot01.png" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/6fddf0cdee482f9d9c5ace233955c910125ec956/R%20Stats/ChickweightPlot01.png' width='450'></a>
 
 
-<a href="./R Stats/NewRplot01.png" target="_blank"><img src='./R Stats/NewRplot01.png' width='450'></a>
+<a href="https://github.com/cedric130813/DataVisualization/blob/6fddf0cdee482f9d9c5ace233955c910125ec956/R%20Stats/ChickweightPlot02.png" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/6fddf0cdee482f9d9c5ace233955c910125ec956/R%20Stats/ChickweightPlot02.png' width='450'></a>
 
 ### And many more... please visit 
 ## ▶ [Cedric's Tableau Portfolio](https://public.tableau.com/app/profile/cedric130813)
