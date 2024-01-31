@@ -25,6 +25,9 @@ Stats:
 ### 4. Ridgeline plot | Tool: R 
 <a href="./R Stats/Rplot.png" target="_blank"><img src='./R Stats/Rplot.png' width='450'></a>
 
+
+<a href="./R Stats/NewRplot01.png" target="_blank"><img src='./R Stats/NewRplot01.png' width='450'></a>
+
 ### And many more... please visit 
 ## ▶ [Cedric's Tableau Portfolio](https://public.tableau.com/app/profile/cedric130813)
 
