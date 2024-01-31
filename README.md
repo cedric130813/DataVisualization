@@ -25,8 +25,9 @@ Stats:
 ### 4. Ridgeline plot | Tool: R 
 <a href="https://github.com/cedric130813/DataVisualization/blob/d2c0451f79c92ae8f8990ffa7f0ccf413c42e7ae/R%20Stats/Ridgeline%20Plots/ChickweightPlot01.png" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/d2c0451f79c92ae8f8990ffa7f0ccf413c42e7ae/R%20Stats/Ridgeline%20Plots/ChickweightPlot01.png' width='450'></a>
 
+### 5. Time Series Dygraph | Tool: R
+<a href="https://github.com/cedric130813/DataVisualization/blob/1ecf19c3855ffd2f5f0aa71288e726f849e17553/R%20Stats/Time%20Series%20Dygraphs/TimeSeriesDyGraph.gif" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/1ecf19c3855ffd2f5f0aa71288e726f849e17553/R%20Stats/Time%20Series%20Dygraphs/TimeSeriesDyGraph.gif' width='600'></a>
 
-<a href="https://github.com/cedric130813/DataVisualization/blob/d2c0451f79c92ae8f8990ffa7f0ccf413c42e7ae/R%20Stats/Ridgeline%20Plots/ChickweightPlot02.png" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/d2c0451f79c92ae8f8990ffa7f0ccf413c42e7ae/R%20Stats/Ridgeline%20Plots/ChickweightPlot02.png' width='450'></a>
 
 ### And many more... please visit 
 ## ▶ [Cedric's Tableau Portfolio](https://public.tableau.com/app/profile/cedric130813)
