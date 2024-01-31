@@ -4,7 +4,7 @@
 - Find more at https://cedric130813.webflow.io/
 - Skills: Tableau, Power BI, Looker Studio, MySQL, MongoDB, R, Python
 
-## Data Visualisations
+## Data Visualizations
 ▶ [Tableau Public Portfolio](https://public.tableau.com/app/profile/cedric130813)
 Stats: 
 - Selected as Tableau Public Featured Author in 2023
