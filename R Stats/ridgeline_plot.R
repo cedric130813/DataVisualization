@@ -146,7 +146,7 @@ ggplot(chickwts2, aes(x = `weight`,
     quantiles = 2, quantile_lines = F
   )+
   labs(title = 'Chick Weights by Feed',
-       subtitle = "Ridgeline plot showing distribution of Chick Weights based on the type of feed used",
+       subtitle = "Ridgeline plot showing distribution of Chick Weights based on the type of feed used\nThe diets used varied based on % of protein in diet compared to normal diet",
        caption = "January 2024 | @cedric130813",
        tag = "") +
   scale_fill_gradient(low = "darkblue", high = "white",
@@ -158,3 +158,4 @@ ggplot(chickwts2, aes(x = `weight`,
     strip.text.x = element_text(size = 8)
   )+
   theme_ft_rc()
+
