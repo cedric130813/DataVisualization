@@ -84,6 +84,12 @@ ggplot(chickwts, aes(x = `weight`,
 
 #---------------
 # Another Chickweight Dataset
+
+# library
+library(ggridges)
+library(ggplot2)
+library(viridis)
+library(hrbrthemes)
 library(data.table)
 chickwts2 = read.csv("ChickWeight.csv")
 
@@ -112,3 +118,43 @@ ggplot(chickwts2, aes(x = `weight`,
 ?geom_density_ridges_gradient
 # Note that due to limitations in R's graphics system, 
 # transparency (alpha) has to be disabled for gradient fills.
+
+#-------------------------------
+# Another variant which highlights tails probabilities in blue
+
+# library
+library(ggridges)
+library(ggplot2)
+library(viridis)
+library(hrbrthemes)
+library(data.table)
+
+# load dataset
+chickwts2 = read.csv("ChickWeight.csv")
+chickwts2$Diet = factor(chickwts2$Diet)
+
+levels(chickwts2$Diet) = c("Normal Diet", 
+                           "10% Protein Replacement", 
+                           "20% Protein Replacement",
+                           "30% Protein Replacement")
+
+ggplot(chickwts2, aes(x = `weight`, 
+                      y = `Diet`,
+                      fill=0.5 - abs(0.5 - stat(ecdf))))+
+  stat_density_ridges(
+    geom = "density_ridges_gradient", calc_ecdf = TRUE,
+    quantiles = 2, quantile_lines = F
+  )+
+  labs(title = 'Chick Weights by Feed',
+       subtitle = "Ridgeline plot showing distribution of Chick Weights based on the type of feed used",
+       caption = "January 2024 | @cedric130813",
+       tag = "") +
+  scale_fill_gradient(low = "darkblue", high = "white",
+                      name = "Tail probability")+
+  theme(
+    legend.position="right",
+    legend.spacing.x= unit(1.0, 'cm'),
+    panel.spacing = unit(0.01, "lines"),
+    strip.text.x = element_text(size = 8)
+  )+
+  theme_ft_rc()
