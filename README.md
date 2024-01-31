@@ -2,7 +2,7 @@
 ## Cedric's Data Visualization Projects
 
 - Find more at https://cedric130813.webflow.io/
-- Skills: Tableau, Power BI, Looker Studio, MySQL, MongoDB
+- Skills: Tableau, Power BI, Looker Studio, MySQL, MongoDB, R, Python
 
 ## Tableau Visualisations
 ▶ [Tableau Public Portfolio](https://public.tableau.com/app/profile/cedric130813)
@@ -22,8 +22,8 @@ Stats:
 ### 3. Geographical Related Search / GIS-related for Pizza Restaurants
 <a href="https://public.tableau.com/app/profile/cedric130813" target="_blank"><img src='https://assets-global.website-files.com/626e3f90d87e459d91f51dd5/64288e695fbce21c01551ab0_Dashboard%202.png' width='450'></a>
 
-### 4. World Food Programme School Feeding in 2022 (Social Good Project) 
-<a href="https://public.tableau.com/app/profile/cedric130813" target="_blank"><img src='https://assets-global.website-files.com/626e3f90d87e459d91f51dd5/65b1150d9fe281a2a45546a5_Dashboard.png' width='450'></a>
+### 4. Ridgeline plot (created in R) 
+<a href="./R Stats/Rplot.png" target="_blank"><img src='./R Stats/Rplot.png' width='450'></a>
 
 ### And many more... please visit 
 ## ▶ [Cedric's Tableau Portfolio](https://public.tableau.com/app/profile/cedric130813)
