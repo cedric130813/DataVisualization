@@ -25,7 +25,10 @@ Stats:
 ### 4. Ridgeline plot | Tool: R 
 <a href="https://github.com/cedric130813/DataVisualization/blob/d2c0451f79c92ae8f8990ffa7f0ccf413c42e7ae/R%20Stats/Ridgeline%20Plots/ChickweightPlot01.png" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/d2c0451f79c92ae8f8990ffa7f0ccf413c42e7ae/R%20Stats/Ridgeline%20Plots/ChickweightPlot01.png' width='450'></a>
 
-### 5. Time Series Dygraph | Tool: R
+### 5. Butterfly (tornado) plot | Tool: R 
+<a href="https://github.com/cedric130813/DataVisualization/blob/16cbaaa6dfd733b1effc47c64c7625b587bbcf30/R%20Stats/Butterfly%20Plot%20(EduVizzers%20Feb%202024)/EduVizzersFeb.png" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/16cbaaa6dfd733b1effc47c64c7625b587bbcf30/R%20Stats/Butterfly%20Plot%20(EduVizzers%20Feb%202024)/EduVizzersFeb.png' width='450'></a>
+
+### 6. Time Series Dygraph | Tool: R
 <a href="https://github.com/cedric130813/DataVisualization/blob/1ecf19c3855ffd2f5f0aa71288e726f849e17553/R%20Stats/Time%20Series%20Dygraphs/TimeSeriesDyGraph.gif" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/1ecf19c3855ffd2f5f0aa71288e726f849e17553/R%20Stats/Time%20Series%20Dygraphs/TimeSeriesDyGraph.gif' width='600'></a>
 
 
