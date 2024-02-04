@@ -62,9 +62,14 @@ p2 = p2 + theme_modern_rc() + theme(axis.text.x = element_blank(),
                 axis.ticks.x = element_blank(),
                 axis.title.x = element_blank()) 
 
-p2+p1 + plot_annotation(caption = 'EduVizzers (Feb 2024) made in R',
-                  theme=theme(plot.title=element_text(hjust=0.5)))
+# The idea is to nest the plots under a common title
+# From: https://patchwork.data-imaginist.com/articles/guides/annotation.html
+# If you need to address only the theme of the patchwork itself (e.g. for making the patchwork title larger than the plot titles), 
+# it can be done with the theme argument in plot_annotation()
+patchwork = (p2+p1) + plot_annotation(title = "Comparing the demographics: SPP & SPS in 2018",
+                                      subtitle = "EduVizzers (Feb 2024) made in R",
+theme=theme(plot.title=element_text(hjust=0.5))+theme_modern_rc())
 
+?plot_annotation
 
-
-
+patchwork
