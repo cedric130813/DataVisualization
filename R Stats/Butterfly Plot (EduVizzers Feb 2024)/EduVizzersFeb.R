@@ -24,7 +24,9 @@ EduDataSPP = EduData %>%
                  "Other Asian Languages","Other & Unknown Languages",
                  "Native Hawaiian/ Other Pacific Islander","Male","Hispanic/ Latino",
                  "Female","English","Chinese- All Dialects","Black/African-American",
-                 "Asian","American Indian/ Alaskan Native","African Languages"))
+                 "Asian","American Indian/ Alaskan Native","African Languages")) 
+
+EduDataSPP$Group = factor(EduDataSPP$Group,levels = c("Native Hawaiian/ Other Pacific Islander","American Indian/ Alaskan Native","Vietnamese","Other & Unknown Languages","Other Asian Languages","Chinese- All Dialects","Spanish","African Languages","Asian","Hispanic/ Latino","Black/African-American","Two or More Races","White","Female","Male","English"))
 
 EduDataSPS = EduData %>%
   filter(Program.Year=="SPS 2018 - 2019") %>%
@@ -35,6 +37,7 @@ EduDataSPS = EduData %>%
                       "Female","English","Chinese- All Dialects","Black/African-American",
                       "Asian","American Indian/ Alaskan Native","African Languages"))
 
+EduDataSPS$Group = factor(EduDataSPS$Group,levels = c("Native Hawaiian/ Other Pacific Islander","American Indian/ Alaskan Native","Vietnamese","Other & Unknown Languages","Other Asian Languages","Chinese- All Dialects","Spanish","African Languages","Asian","Hispanic/ Latino","Black/African-American","Two or More Races","White","Female","Male","English"))
 p1 = ggplot(EduDataSPS,
        aes(x = Count.of.Children.Served,
            y = Group,
@@ -49,7 +52,7 @@ p1 = p1 + theme_modern_rc() + theme(axis.text.y = element_blank(),
         axis.ticks.x = element_blank(),
         axis.title.x = element_blank())
 
-p1
+p1 
  
 p2 = ggplot(EduDataSPP,
        aes(x = -Count.of.Children.Served,
@@ -69,7 +72,5 @@ p2 = p2 + theme_modern_rc() + theme(axis.text.x = element_blank(),
 patchwork = (p2+p1) + plot_annotation(title = "Comparing the demographics: SPP & SPS in 2018",
                                       subtitle = "EduVizzers (Feb 2024) made in R",
 theme=theme(plot.title=element_text(hjust=0.5))+theme_modern_rc())
-
-?plot_annotation
 
 patchwork
