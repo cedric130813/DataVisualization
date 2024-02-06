@@ -28,8 +28,8 @@ header = dashboardHeader(title="Cedric's Dashboard",
 
 sidebar = dashboardSidebar(
   sidebarMenu(
-    menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
-    menuItem("Widgets", tabName = "widgets", icon = icon("th"))
+    menuItem("Dashboard", tabName = "dashboard", icon = icon("gauge")),
+    menuItem("Widgets", tabName = "widgets", icon = icon("gauge-simple-high"))
   )
 )
 
@@ -43,9 +43,10 @@ body = dashboardBody(
             ),
             fluidRow(
               box(plotOutput("plot1", height = 300)),
+              box(plotOutput("plot2", height = 300))),
               box(title = "Controls", sliderInput("slider", 
-                                                  "Number of observations:", 10, 100, 50, 5, 
-                                                  animate = T)))
+                                                "Number of observations:", 10, 100, 50, 5, 
+                                                animate = T))
             ),
     # Second tab content
     tabItem(tabName = "widgets",
@@ -89,6 +90,10 @@ server <- function(input, output) {
     data <- histdata[seq_len(input$slider)]
     hist(data)
   })
+  
+  output$plot2 = renderPlot({
+    plot(mtcars$wt, mtcars$mpg)
+  },res = 96)
   
   output$progressBox <- renderValueBox({
     valueBox(
