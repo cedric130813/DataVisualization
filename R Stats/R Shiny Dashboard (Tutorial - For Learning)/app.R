@@ -38,16 +38,21 @@ body = dashboardBody(
     # First tab content
     tabItem(tabName = "dashboard",
             fluidRow(
-              box(plotOutput("plot1", height = 500)),
+              valueBox(100, "New Orders (#)", icon = icon("cart-shopping"),color = "blue"),
+              valueBox(350, "Cash ($)", icon = icon("money-bill"),color = "olive")
+            ),
+            fluidRow(
+              box(plotOutput("plot1", height = 300)),
               box(title = "Controls", sliderInput("slider", 
                                                   "Number of observations:", 10, 100, 50, 5, 
-                                                  animate = T)))),
+                                                  animate = T)))
+            ),
     # Second tab content
     tabItem(tabName = "widgets",
             h2("Widgets tab content"),
             fluidRow(
               # static Valuebox
-              valueBox(10 * 2, "New Orders", icon = icon("list")),
+              valueBox(100, "New Orders", icon = icon("cart-shopping")),
               # Dynamic valueBoxes
               valueBoxOutput("progressBox")
             ),
@@ -56,7 +61,17 @@ body = dashboardBody(
               box(width = 4, actionButton("count", "Increment progress"))
             )
     )
-  )
+  ),
+  tags$head(
+      # custom CSS can be inserted here
+      # alternatively, refer to http://shiny.rstudio.com/articles/css.html
+      tags$style(HTML('
+      .main-header .logo {
+        font-family: "Arial", "Verdana", "Helvetica", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    ')))
 )
 
 ui <- dashboardPage(
@@ -77,8 +92,8 @@ server <- function(input, output) {
   
   output$progressBox <- renderValueBox({
     valueBox(
-      paste0(25 + input$count, "%"), "Progress", icon = icon("list"),
-      color = "purple"
+      paste0(25 + input$count, "%"), "Progress", icon = icon("spinner"),
+      color = "olive"
     )
   })
   
