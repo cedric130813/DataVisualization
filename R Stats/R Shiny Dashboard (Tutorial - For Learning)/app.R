@@ -72,6 +72,9 @@ body = dashboardBody(
                 box(title = "Controls", sliderInput("slider", 
                                                     "Number of observations:", 10, 100, 50, 5, 
                                                     animate = T)),
+                box(title = "Width Control", sliderInput("WidthSlider", 
+                                                    "Width:", 500, 4000, 1000, 100, 
+                                                    animate = T)),
                 # box(plotOutput("plot2", height = 200))),
                 box(plotOutput("plot3", height= 400)),
                 box(selectInput(
@@ -145,7 +148,7 @@ server <- function(input, output) {
                  y = Group,
                  fill = Count.of.Children.Served)) + 
         geom_col(show.legend=FALSE) + labs(subtitle="SPP 2018 - 2019") +
-        xlim(-4000, 0) + geom_text(aes(label = Count.of.Children.Served),colour="white")+
+        xlim(-input$WidthSlider, 0) + geom_text(aes(label = Count.of.Children.Served),colour="white")+
         theme_modern_rc() + theme(axis.text.x = element_blank(), 
                                   axis.ticks.x = element_blank(),
                                   axis.title.x = element_blank()) 
@@ -171,3 +174,5 @@ server <- function(input, output) {
 
 shinyApp(ui, server)
 # runApp()
+
+?actionButton
