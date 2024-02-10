@@ -1,4 +1,7 @@
 1. supply_chain_data_fashion_beauty.csv
 source - https://www.kaggle.com/datasets/harshsingh2209/supply-chain-analysis
 
-
+2. DataCoSupplyChainDataset.csv
+DescriptionDataCoSupplyChain.csv
+https://data.mendeley.com/datasets/8gx2fvg2k6/5
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
