@@ -19,8 +19,8 @@ Stats:
 ### 2. Supply Chain Dashboard | Tool: Tableau
 <a href="https://public.tableau.com/app/profile/cedric130813" target="_blank"><img src='https://assets-global.website-files.com/626e3f90d87e459d91f51dd5/6448f949d9cba40342dd5f7d_Front%20(4).png' width='450'></a>
 
-### 3. Geographical Related Search / GIS-related for Pizza Restaurants | Tool: Tableau
-<a href="https://public.tableau.com/app/profile/cedric130813" target="_blank"><img src='https://assets-global.website-files.com/626e3f90d87e459d91f51dd5/64288e695fbce21c01551ab0_Dashboard%202.png' width='450'></a>
+### 3. Call Center Reporting Dashboard | Tool: Tableau
+<a href="https://public.tableau.com/app/profile/cedric130813" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/8cab06bd3eb9a997cdf2176c0349fcfce1de1efd/Tableau/image%204.png' width='450'></a>
 
 ### 4. Ridgeline plot | Tool: R 
 <a href="https://github.com/cedric130813/DataVisualization/blob/d2c0451f79c92ae8f8990ffa7f0ccf413c42e7ae/R%20Stats/Ridgeline%20Plots/ChickweightPlot01.png" target="_blank"><img src='https://github.com/cedric130813/DataVisualization/blob/d2c0451f79c92ae8f8990ffa7f0ccf413c42e7ae/R%20Stats/Ridgeline%20Plots/ChickweightPlot01.png' width='450'></a>
