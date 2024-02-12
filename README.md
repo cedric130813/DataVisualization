@@ -9,8 +9,8 @@
 Stats: 
 - Selected as Tableau Public Featured Author in 2023
 - Served as 2x Tableau Ambassador (2023, 2024); *as mentor in 2024
-- 565 Followers
-- 59 Visualization Projects
+- 573 Followers
+- 60 Visualization Projects
 - More details: [Tableau Public Stats](https://public.tableau.com/app/profile/cedric130813/viz/TableauPublicStats_16942428002280/Stats)
 
 ### 1. FP&A Dashboard | Tool: Tableau
