@@ -17,11 +17,6 @@ isc_grants <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 isc_grants$group = factor(isc_grants$group)
 levels(isc_grants$group)
 
-ggplot(data=isc_grants, 
-       mapping=aes(x=year))+
-  geom_bar()+
-  gg_("add 'Hello World' as plot title")
-
 isc_2023 = filter(isc_grants, year == 2023)
 isc_2022 = filter(isc_grants, year == 2022)
 isc_2021 = filter(isc_grants, year == 2021)
