@@ -33,7 +33,7 @@ Languages and Tools: Tableau, Power BI, R, Python
 - Followers: 587
 - Visualization Projects: 67
 - Views: 11,000+
-- Favorites: 100
+- Favorites: 122
 - **For more details:** [Tableau Public Stats](https://public.tableau.com/app/profile/cedric130813/viz/TableauPublicStats_16942428002280/Stats)
 
 ### Tableau Public Portfolio<a name="tableau-public-portfolio"></a>
