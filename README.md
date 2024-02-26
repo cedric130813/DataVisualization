@@ -20,11 +20,7 @@
 
 I am **passionate** about: Data Visualization, Dashboards, Data Storytelling, Supply Chain, Procurement Analytics
 
-Languages and Tools:
-![Tableau](https://img.shields.io/badge/Tableau-9a1018?style=for-the-badge&logo=Tableau&logoColor=white) 
-![Figma](https://img.shields.io/badge/figma-%23c2a444.svg?style=for-the-badge&logo=figma&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+Languages and Tools: Tableau, Power BI, R, Python
 
 ### Tableau Milestones<a name="tableau-milestones"></a>
 - [Tableau Certified Data Analyst](https://www.credly.com/badges/5f8e3e48-0b1c-4dca-9e9b-1ef1c0fb3e2d/public_url)
@@ -34,9 +30,9 @@ Languages and Tools:
 - Nominated for Notable Newbie, Biggest Growth, and Michael W. Cristiani Tableau Community Leadership at the Tableau Conference 2023
 
 ### Tableau Public Stats<a name="tableau-public-stats"></a>
-- Followers: 576
-- Visualization Projects: 62
-- Views: 10,000+
+- Followers: 587
+- Visualization Projects: 67
+- Views: 11,000+
 - Favorites: 100
 - **For more details:** [Tableau Public Stats](https://public.tableau.com/app/profile/cedric130813/viz/TableauPublicStats_16942428002280/Stats)
 
