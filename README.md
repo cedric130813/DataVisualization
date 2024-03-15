@@ -26,14 +26,14 @@ Languages and Tools: Tableau, Power BI, R, Python
 - [Tableau Certified Data Analyst](https://www.credly.com/badges/5f8e3e48-0b1c-4dca-9e9b-1ef1c0fb3e2d/public_url)
 - Selected as Tableau Public Featured Author in 2023
 - Served as 2x Tableau Ambassador (2023, 2024); also served as a mentor in 2024
-- [Visualization of the Day (VOTD)](https://tabsoft.co/489OLuW)
 - Nominated for Notable Newbie, Biggest Growth, and Michael W. Cristiani Tableau Community Leadership at the Tableau Conference 2023
 
 ### Tableau Public Stats<a name="tableau-public-stats"></a>
-- Followers: 587
-- Visualization Projects: 67
-- Views: 11,000+
+- Followers: 600+
+- Visualization Projects: 68
+- Views: 17,000+
 - Favorites: 122
+- Visualization of the Day x2
 - **For more details:** [Tableau Public Stats](https://public.tableau.com/app/profile/cedric130813/viz/TableauPublicStats_16942428002280/Stats)
 
 ### Tableau Public Portfolio<a name="tableau-public-portfolio"></a>
