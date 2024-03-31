@@ -14,7 +14,7 @@
 - Hi, I'm Cedric! Thanks for taking the time to check out my profile.
 
 ### Contact Information<a name="contact-information"></a>
-- Let's keep in touch at [linktr.ee/cedric130813](http://linktr.ee/cedric130813)
+- Let's keep in touch at [https://beacons.ai/cedric130813](https://beacons.ai/cedric130813)
 
 ## About Me<a name="about-me"></a>
 
@@ -29,10 +29,10 @@ Languages and Tools: Tableau, Power BI, R, Python
 - Nominated for Notable Newbie, Biggest Growth, and Michael W. Cristiani Tableau Community Leadership at the Tableau Conference 2023
 
 ### Tableau Public Stats<a name="tableau-public-stats"></a>
-- Followers: 600+
-- Visualization Projects: 68
-- Views: 17,000+
-- Favorites: 122
+- Followers: 640+
+- Visualization Projects: 69
+- Views: 24,000+
+- Favorites: 370
 - Visualization of the Day x2
 - **For more details:** [Tableau Public Stats](https://public.tableau.com/app/profile/cedric130813/viz/TableauPublicStats_16942428002280/Stats)
 
